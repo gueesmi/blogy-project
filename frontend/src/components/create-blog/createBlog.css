@@ -1,0 +1,21 @@
+.blog-label {
+    color: black;
+}
+
+textarea {
+    width: 60%;
+
+    background: #e0dede;
+    justify-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: #573b8a;
+}

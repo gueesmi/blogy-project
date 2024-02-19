@@ -1,0 +1,26 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "node --env-file=config/.env  App.js",
+    "server": "nodemon --env-file=config/.env  App.js",
+    "client":"cd ../frontend & npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "FSF1",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.3"
+  }
+}
